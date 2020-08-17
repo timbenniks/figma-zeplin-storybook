@@ -1,0 +1,31 @@
+{
+  "plugins": [
+    {
+      "name": "zeplin-cli-connect-plugin-vue"
+    },
+    {
+      "name": "@zeplin/cli-connect-storybook-plugin",
+      "config": {
+        "url": "http://localhost:6006",
+        "startScript": "storybook"
+      }
+    }
+  ],
+
+  "projects": ["5f3a6a03fcd3be6554795324"],
+  "styleguides": [],
+  "components": [
+    {
+      "path": "src/stories/Button.vue",
+      "zeplinNames": ["Button"],
+      "storybook": {
+        "kind": "Design System/Button",
+        "stories": ["default"]
+      }
+    }
+  ],
+  "github": {
+    "repository": "timbenniks/react-components",
+    "branch": "master"
+  }
+}

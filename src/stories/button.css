@@ -1,0 +1,19 @@
+.storybook-button {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  padding: 20px 24px;
+}
+
+.storybook-button--primary {
+  color: white;
+  background-color: #000;
+}
